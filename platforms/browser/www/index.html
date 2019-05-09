@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src * 'unsafe-inline';
+     media-src *; img-src *; script-src * data: https://ssl.gstatic.com 'unsafe-inline' 'unsafe-eval'; connect-src *">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Bucketlist</title>
+</head>
+
+<body>
+    <h1 id="title">Mijn bucketlist</h1>
+
+
+
+    <div id="newTaskSection">
+
+        <input type="text" id="getName" placeholder="naam" value="">
+        <button type="button" id="Naambutton" onclick="saveName()">verander naam</button>
+        <input type="text" id="newTaskInput" placeholder="Typ hier nieuw item">
+        <button id="addNewTask">Voeg toe</button>
+
+    </div>
+    <ul id="taskList">
+    </ul>
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>

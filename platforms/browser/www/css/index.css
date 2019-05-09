@@ -1,0 +1,109 @@
+body {
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+
+
+}
+
+h1 {
+    background-color: white;
+    border-bottom: 2px solid black;
+    font-size: 1.2em;
+    color: #C61FF4;
+    line-height: 2em;
+    text-align: center;
+
+}
+
+#newTaskInput {
+    display: block;
+    width: 96%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: auto;
+    background-color: white;
+    border: 0.5;
+    height: 2em;
+    font-size: 1em;
+    font-style: italic;
+    color: lightgray;
+    border-style: solid;
+}
+
+#addNewTask {
+    display: block;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C61FF4;
+    height: 2em;
+    font-family: montserrat;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    border:none
+  
+}
+
+#taskList {
+    margin-top: 15px;
+
+}
+
+#taskList > li {
+    display: block;
+    width: 98%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border: 1px solid #C61FF4;
+    line-height: 2em;
+    color: black;
+    margin-top: 4px;
+    border-radius: 2px;
+    
+
+}
+
+#taskList span {
+
+    margin-left: 5px;
+}
+
+
+#getName {
+
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: auto;
+    background-color: white;
+    border: 1;
+    height: 1.em;
+    font-size: 1em;
+    font-style: italic;
+    color: lightgray;
+    border-style: solid;
+}
+
+#Naambutton {
+    
+    width: 30%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 1.5em;
+    font-family: montserrat;
+    font-size: 1em;
+    font-weight: 600;
+    color: #C61FF4;
+    border-style: solid;
+    border-radius: 2px
+    
+}

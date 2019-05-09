@@ -1,0 +1,31 @@
+.logo {
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: darkgrey;
+}
+
+.startform {
+    margin-top: 55%;
+}
+
+.cstmbutton {
+    background-color: #C8482C;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    border-radius: 100px;
+}
+
+.inputveld {
+    border: 2px solid darkgray;
+
+    border-color: darkgray!important;
+    border-radius: 10px!important;
+}
+
+.inputveld img {
+    margin: auto;
+}
